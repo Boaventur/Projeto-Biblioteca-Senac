@@ -50,3 +50,7 @@ C:\Users\Gabriel\Desktop\Modulo B\Atividades\Modulo B2\ATV_1 Gabriel\Biblioteca\
 C:\Users\Gabriel\Desktop\Modulo B\Atividades\Modulo B2\ATV_1 Gabriel\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Users\Gabriel\Desktop\Modulo B\Atividades\Modulo B2\ATV_1 Gabriel\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\Gabriel\Desktop\Modulo B\Atividades\Modulo B2\ATV_1 Gabriel\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Users\Gabriel\Desktop\Modulo B\Atividades\Modulo B2\ATV_1 Gabriel\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EditarUsuario.cshtml.g.cs
+C:\Users\Gabriel\Desktop\Modulo B\Atividades\Modulo B2\ATV_1 Gabriel\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ListaUsuario.cshtml.g.cs
+C:\Users\Gabriel\Desktop\Modulo B\Atividades\Modulo B2\ATV_1 Gabriel\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Permissao.cshtml.g.cs
+C:\Users\Gabriel\Desktop\Modulo B\Atividades\Modulo B2\ATV_1 Gabriel\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Cadastro.cshtml.g.cs

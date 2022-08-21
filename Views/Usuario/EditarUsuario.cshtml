@@ -1,0 +1,35 @@
+@model Usuario
+
+
+
+<h1>Editar usuário</h1>
+
+
+
+<form asp-action="EditarUsuario" method="post">
+
+    <input type="text" asp-for="Nome" id="userNome" placeholder="Nome">
+
+    <input type="text" asp-for="login" id="userLogin" placeholder="login">
+
+    <input type="text" asp-for="senha" id="userSenha" placeholder="senha">
+
+    
+
+    <select asp-for="tipo" id="usertipo">
+
+        <option value="@Usuario.ADMIN">Administrador</option>
+
+        <option value="@Usuario.PADRAO">Padrão</option>
+
+    </select>
+
+
+
+    <input type="hidden" asp-for="id">
+
+    <input type="submit" value="EDITAR">
+
+    
+
+</form>

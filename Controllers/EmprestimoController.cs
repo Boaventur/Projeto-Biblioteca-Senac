@@ -11,11 +11,15 @@ namespace Biblioteca.Controllers
     {
         public IActionResult Cadastro()
         {
+
             LivroService livroService = new LivroService();
             EmprestimoService emprestimoService = new EmprestimoService();
 
             CadEmprestimoViewModel cadModel = new CadEmprestimoViewModel();
-            cadModel.Livros = livroService.ListarTodos();
+            cadModel.Livros = livroService.ListarDisponiveis();
+
+            Autenticacao.CheckLogin(this);
+
             return View(cadModel);
         }
 
@@ -37,6 +41,9 @@ namespace Biblioteca.Controllers
 
         public IActionResult Listagem(string tipoFiltro, string filtro)
         {
+           
+           Autenticacao.CheckLogin(this);
+
             FiltrosEmprestimos objFiltro = null;
             if(!string.IsNullOrEmpty(filtro))
             {
@@ -50,6 +57,9 @@ namespace Biblioteca.Controllers
 
         public IActionResult Edicao(int id)
         {
+
+            Autenticacao.CheckLogin(this);
+
             LivroService livroService = new LivroService();
             EmprestimoService em = new EmprestimoService();
             Emprestimo e = em.ObterPorId(id);
